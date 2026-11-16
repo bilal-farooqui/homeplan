@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<title>Floor Plan Walkthrough</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #cfdceb; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  body { touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+  #app { position: fixed; inset: 0; }
+  canvas#view { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+  canvas#view.drag { cursor: grabbing; }
+  .hud { position: fixed; pointer-events: none; color: #fff; }
+  #room { top: calc(env(safe-area-inset-top) + 12px); left: 50%; transform: translateX(-50%); padding: 7px 16px; background: rgba(20, 22, 26, 0.62); border-radius: 18px; font-size: 16px; font-weight: 600; white-space: nowrap; max-width: 52vw; overflow: hidden; text-overflow: ellipsis; }
+  #map { top: calc(env(safe-area-inset-top) + 12px); left: 12px; background: rgba(255, 255, 255, 0.78); border-radius: 6px; box-shadow: 0 1px 6px rgba(0,0,0,.25); }
+  #map canvas { display: block; }
+  #toggle { pointer-events: auto; top: calc(env(safe-area-inset-top) + 12px); right: 12px; padding: 10px 14px; font-size: 15px; font-weight: 600; background: #1f6feb; color: #fff; border: 0; border-radius: 10px; cursor: pointer; touch-action: manipulation; }
+  #toggle:active { background: #1558bd; }
+  #night { pointer-events: auto; top: calc(env(safe-area-inset-top) + 62px); right: 12px; padding: 9px 14px; font-size: 15px; font-weight: 600; background: #2a2f45; color: #fff; border: 0; border-radius: 10px; cursor: pointer; touch-action: manipulation; }
+  #night:active { background: #1c2033; }
+  body.dark #night { background: #f2c14e; color: #1b1b1b; }
+  #joy { display: none; position: fixed; left: calc(env(safe-area-inset-left) + 22px); bottom: calc(env(safe-area-inset-bottom) + 26px); width: 128px; height: 128px; border-radius: 50%; background: rgba(255,255,255,0.22); border: 2px solid rgba(255,255,255,0.55); touch-action: none; }
+  #joy .knob { position: absolute; left: 50%; top: 50%; width: 54px; height: 54px; margin: -27px 0 0 -27px; border-radius: 50%; background: rgba(255,255,255,0.7); box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+  body.touch #joy { display: block; }
+  body.top #joy, body.out #joy { display: none; }
+  #labels { position: fixed; inset: 0; pointer-events: none; display: none; }
+  body.top #labels { display: block; }
+  #labels span { position: absolute; transform: translate(-50%, -50%); font-size: 11px; font-weight: 600; color: #20242a; background: rgba(255,255,255,0.72); padding: 1px 5px; border-radius: 4px; white-space: nowrap; }
+  body.top #room, body.out #room { display: none; }
+  body.out #map { display: none; }
+  @media (max-width: 520px) { #night { padding: 8px 12px; font-size: 14px; top: calc(env(safe-area-inset-top) + 56px); } #room { font-size: 14px; padding: 6px 12px; max-width: 40vw; } #toggle { padding: 9px 12px; font-size: 14px; } #labels span { font-size: 9px; padding: 0 3px; } }
+</style>
+</head>
+<body>
+<div id="app">
+  <canvas id="view"></canvas>
+  <div id="labels"></div>
+  <div id="room" class="hud"></div>
+  <div id="map" class="hud"><canvas></canvas></div>
+  <button id="toggle" class="hud">Top view</button>
+  <button id="night" class="hud">Night view</button>
+  <div id="joy"><div class="knob"></div></div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

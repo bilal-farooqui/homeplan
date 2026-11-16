@@ -1,0 +1,193 @@
+{
+ "textures": {
+  "tile": {
+   "id": "interior_tiles",
+   "size_m": [
+    1.8999998569488525,
+    1.8999998569488525
+   ],
+   "maps": {
+    "diff": "assets/textures/interior_tiles/interior_tiles_diff_1k.jpg",
+    "nor": "assets/textures/interior_tiles/interior_tiles_nor_gl_1k.jpg",
+    "rough": "assets/textures/interior_tiles/interior_tiles_rough_1k.jpg"
+   }
+  },
+  "bath": {
+   "id": "large_floor_tiles_02",
+   "size_m": [
+    3.0,
+    3.0
+   ],
+   "maps": {
+    "diff": "assets/textures/large_floor_tiles_02/large_floor_tiles_02_diff_1k.jpg",
+    "nor": "assets/textures/large_floor_tiles_02/large_floor_tiles_02_nor_gl_1k.jpg",
+    "rough": "assets/textures/large_floor_tiles_02/large_floor_tiles_02_rough_1k.jpg"
+   }
+  },
+  "wallTile": {
+   "id": "long_white_tiles",
+   "size_m": [
+    1.2699999809265137,
+    1.2699999809265137
+   ],
+   "maps": {
+    "diff": "assets/textures/long_white_tiles/long_white_tiles_diff_1k.jpg",
+    "nor": "assets/textures/long_white_tiles/long_white_tiles_nor_gl_1k.jpg",
+    "rough": "assets/textures/long_white_tiles/long_white_tiles_rough_1k.jpg"
+   }
+  },
+  "stone": {
+   "id": "pebble_cemented_floor",
+   "size_m": [
+    1.559999942779541,
+    1.5600000619888306
+   ],
+   "maps": {
+    "diff": "assets/textures/pebble_cemented_floor/pebble_cemented_floor_diff_1k.jpg",
+    "nor": "assets/textures/pebble_cemented_floor/pebble_cemented_floor_nor_gl_1k.jpg",
+    "rough": "assets/textures/pebble_cemented_floor/pebble_cemented_floor_rough_1k.jpg"
+   }
+  },
+  "balcony": {
+   "id": "patio_tiles",
+   "size_m": [
+    2.1500000953674316,
+    2.1500000953674316
+   ],
+   "maps": {
+    "diff": "assets/textures/patio_tiles/patio_tiles_diff_1k.jpg",
+    "nor": "assets/textures/patio_tiles/patio_tiles_nor_gl_1k.jpg",
+    "rough": "assets/textures/patio_tiles/patio_tiles_rough_1k.jpg"
+   }
+  },
+  "concrete": {
+   "id": "concrete_wall_008",
+   "size_m": [
+    2.7100000381469727,
+    2.7100000381469727
+   ],
+   "maps": {
+    "diff": "assets/textures/concrete_wall_008/concrete_wall_008_diff_1k.jpg",
+    "nor": "assets/textures/concrete_wall_008/concrete_wall_008_nor_gl_1k.jpg",
+    "rough": "assets/textures/concrete_wall_008/concrete_wall_008_rough_1k.jpg"
+   }
+  },
+  "plaster": {
+   "id": "painted_plaster_wall",
+   "size_m": [
+    2.0,
+    2.0
+   ],
+   "maps": {
+    "diff": "assets/textures/painted_plaster_wall/painted_plaster_wall_diff_1k.jpg",
+    "nor": "assets/textures/painted_plaster_wall/painted_plaster_wall_nor_gl_1k.jpg",
+    "rough": "assets/textures/painted_plaster_wall/painted_plaster_wall_rough_1k.jpg"
+   }
+  },
+  "oak": {
+   "id": "oak_veneer_01",
+   "size_m": [
+    1.8300000429153442,
+    1.8300000429153442
+   ],
+   "maps": {
+    "diff": "assets/textures/oak_veneer_01/oak_veneer_01_diff_1k.jpg",
+    "nor": "assets/textures/oak_veneer_01/oak_veneer_01_nor_gl_1k.jpg",
+    "rough": "assets/textures/oak_veneer_01/oak_veneer_01_rough_1k.jpg"
+   }
+  },
+  "walnut": {
+   "id": "walnut_veneer",
+   "size_m": [
+    1.7999999523162842,
+    1.7999999523162842
+   ],
+   "maps": {
+    "diff": "assets/textures/walnut_veneer/walnut_veneer_diff_1k.jpg",
+    "nor": "assets/textures/walnut_veneer/walnut_veneer_nor_gl_1k.jpg",
+    "rough": "assets/textures/walnut_veneer/walnut_veneer_rough_1k.jpg"
+   }
+  },
+  "teak": {
+   "id": "teak_veneer",
+   "size_m": [
+    1.0,
+    1.0
+   ],
+   "maps": {
+    "diff": "assets/textures/teak_veneer/teak_veneer_diff_1k.jpg",
+    "nor": "assets/textures/teak_veneer/teak_veneer_nor_gl_1k.jpg",
+    "rough": "assets/textures/teak_veneer/teak_veneer_rough_1k.jpg"
+   }
+  },
+  "asphalt": {
+   "id": "asphalt_04",
+   "size_m": [
+    4.039999961853027,
+    4.039999961853027
+   ],
+   "maps": {
+    "diff": "assets/textures/asphalt_04/asphalt_04_diff_1k.jpg",
+    "nor": "assets/textures/asphalt_04/asphalt_04_nor_gl_1k.jpg",
+    "rough": "assets/textures/asphalt_04/asphalt_04_rough_1k.jpg"
+   }
+  },
+  "brick": {
+   "id": "brick_wall_005",
+   "size_m": [
+    1.440000057220459,
+    1.440000057220459
+   ],
+   "maps": {
+    "diff": "assets/textures/brick_wall_005/brick_wall_005_diff_1k.jpg",
+    "nor": "assets/textures/brick_wall_005/brick_wall_005_nor_gl_1k.jpg",
+    "rough": "assets/textures/brick_wall_005/brick_wall_005_rough_1k.jpg"
+   }
+  },
+  "ground": {
+   "id": "dry_ground_01",
+   "size_m": [
+    4.0,
+    4.0
+   ],
+   "maps": {
+    "diff": "assets/textures/dry_ground_01/dry_ground_01_diff_1k.jpg",
+    "nor": "assets/textures/dry_ground_01/dry_ground_01_nor_gl_1k.jpg",
+    "rough": "assets/textures/dry_ground_01/dry_ground_01_rough_1k.jpg"
+   }
+  }
+ },
+ "hdri": {
+  "day": {
+   "id": "qwantani_dusk_2_puresky",
+   "file": "assets/hdri/qwantani_dusk_2_puresky/qwantani_dusk_2_puresky_2k.hdr",
+   "sun": [
+    0.7577983995324087,
+    0.16339994938297323,
+    0.6316977459258198
+   ],
+   "peak": 5.389083603907021
+  },
+  "night": {
+   "id": "qwantani_night_puresky",
+   "file": "assets/hdri/qwantani_night_puresky/qwantani_night_puresky_2k.hdr",
+   "sun": [
+    0.5962473349548907,
+    0.7700828369933479,
+    0.22685136042674978
+   ],
+   "peak": 97.96088291467315
+  }
+ },
+ "models": {
+  "ceiling_fan": {
+   "file": "assets/models/ceiling_fan/ceiling_fan_1k.gltf"
+  },
+  "mid_century_lounge_chair": {
+   "file": "assets/models/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf"
+  },
+  "potted_plant_04": {
+   "file": "assets/models/potted_plant_04/potted_plant_04_1k.gltf"
+  }
+ }
+}
